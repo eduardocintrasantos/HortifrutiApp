@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hortifruti_app/src/base/base_screen.dart';
 import 'package:hortifruti_app/src/components/custom_text_field.dart';
 
 class SignInScreen extends StatelessWidget {
@@ -38,7 +39,15 @@ class SignInScreen extends StatelessWidget {
                           borderRadius: BorderRadius.circular(18),
                         ),
                       ),
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.of(context).pushReplacement(
+                          MaterialPageRoute(
+                            builder: (c) {
+                              return BaseScreen();
+                            },
+                          ),
+                        );
+                      },
                       child: const Text(
                         'Entrar',
                         style: TextStyle(fontSize: 18),
