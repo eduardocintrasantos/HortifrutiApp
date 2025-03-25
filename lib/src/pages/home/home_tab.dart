@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:badges/badges.dart' as badges;
 import 'package:hortifruti_app/src/config/app_data.dart' as appData;
 import 'package:hortifruti_app/src/pages/home/components/category_title.dart';
+import 'package:hortifruti_app/src/pages/home/components/item_title.dart';
 
 class HomeTab extends StatefulWidget {
   HomeTab({super.key});
@@ -118,8 +119,8 @@ class _HomeTabState extends State<HomeTab> {
               ), 
               itemCount: appData.items.length,
               itemBuilder: (_,index) {
-                return Container(
-                  color: Colors.red,
+                return ItemTitle(
+                  item: appData.items[index],
                 );
               }
             ),
