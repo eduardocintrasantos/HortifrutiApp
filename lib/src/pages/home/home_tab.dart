@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:badges/badges.dart' as badges;
-import 'package:hortifruti_app/src/home/components/category_title.dart';
+import 'package:hortifruti_app/src/pages/home/components/category_title.dart';
 
 class HomeTab extends StatefulWidget {
   HomeTab({super.key});
