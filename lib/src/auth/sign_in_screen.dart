@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hortifruti_app/src/base/base_screen.dart';
-import 'package:hortifruti_app/src/components/custom_text_field.dart';
+import 'package:hortifruti_app/src/auth/components/custom_text_field.dart';
 
 class SignInScreen extends StatelessWidget {
   const SignInScreen({super.key});
