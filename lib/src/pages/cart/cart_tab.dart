@@ -50,18 +50,18 @@ class CartTab extends StatelessWidget {
                 SizedBox(
                   height: 50,
                   child: ElevatedButton(
-                    onPressed: (){}, 
-                    child: Text('Finalizar', 
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 18
-                      ),
-                    ),
+                    onPressed: (){},
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.green,
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(18)
                       )
+                    ), 
+                    child: Text('Finalizar', 
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 18
+                      ),
                     ),
                   ),
                 )
